@@ -1,0 +1,397 @@
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+<h2>Absolute URLs</h2>
+<p><a href="https://www.w3.org/">W3C</a></p>
+<p><a href="https://www.google.com/">Google</a></p>
+
+<h2>Relative URLs</h2>
+<p><a href="html_images.asp">HTML Images</a></p>
+<p><a href="/css/default.asp">CSS Tutorial</a></p>
+
+<a href="default.asp">
+<img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a>
+
+<a href="mailto:someone@example.com">Send email</a>
+
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+<a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a>
+<a href="/html/default.asp">HTML tutorial</a>
+<a href="default.asp">HTML tutorial</a>
+
+<h2 id="C4">Chapter 4</h2> 
+<a href="#C4">Jump to Chapter 4</a>
+
+<img src="pic_trulli.jpg" alt="Italian Trulli">
+<img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
+<img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+<img src="programming.gif" alt="Computer Man" style="width:48px;height:48px;">
+
+<a href="default.asp">
+  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a>
+
+<p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+The image will float to the right of the text.</p>
+
+<p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+The image will float to the left of the text.</p>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+  width: 100%;
+}
+</style>
+</head>
+<body>
+
+<img src="html5.gif" alt="HTML5 Icon" width="128" height="128">
+
+<img src="html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+</body>
+</html>
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<area shape="rect" coords="34, 44, 270, 350" href="computer.htm">
+<area shape="circle" coords="337, 300, 44" href="coffee.htm">
+<area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" href="croissant.htm">
+
+<map name="workmap">
+  <area shape="circle" coords="337,300,44" href="coffee.htm" onclick="myFunction()">
+</map>
+
+<script>
+function myFunction() {
+  alert("You clicked the coffee cup!");
+}
+</script>
+
+<p style="background-image: url('img_girl.jpg');">
+
+<style>
+p {
+  background-image: url('img_girl.jpg');
+}
+</style>
+
+<style>
+body {
+  background-image: url('img_girl.jpg');
+}
+</style>
+
+<style>
+body {
+  background-image: url('example_img_girl.jpg');
+}
+</style>
+
+<style>
+body {
+  background-image: url('example_img_girl.jpg');
+  background-repeat: no-repeat;
+}
+</style>
+
+<style>
+body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+<style>
+body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+
+<picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg">
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg">
+</picture>
+
+<picture>
+  <source srcset="img_avatar.png">
+  <source srcset="img_girl.jpg">
+  <img src="img_beatles.gif" alt="Beatles" style="width:auto;">
+</picture>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page Title</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+
+<ul style="list-style-type:disc;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea
+    <ul>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ul>
+  </li>
+  <li>Milk</li>
+</ul>
+Note: A list item (<li>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+</style>
+</head>
+<body>
+
+<h2>Navigation Menu</h2>
+<p>In this example, we use CSS to style the list horizontally, to create a navigation menu:</p>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+</body>
+</html>
+
+
+<ol type="1">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<ol start="50">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<div style="background-color:black;color:white;padding:20px;">
+  <h2>London</h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+</div>
+
+<p>My mother has <span style="color:blue;font-weight:bold;">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold;">dark green</span> eyes.</p>
+
+<div>
+  <h2>London</h2>
+  <p>London is the capital city of England.</p>
+  <p>London has over 13 million inhabitants.</p>
+</div>
+
+<style>
+div {
+  width:300px;
+  margin:auto;
+}
+</style>
+
+<style>
+.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+.mycontainer div {
+  width:33%;
+  float:left;
+}
+</style>
+
+<style>
+div {
+  width: 30%;
+  display: inline-block;
+}
+</style>
+
+<style>
+.mycontainer {
+  display: flex;
+}
+.mycontainer > div {
+  width:33%;
+}
+</style>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+</style>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="city">
+  <h2>London</h2>
+  <p>London is the capital of England.</p>
+</div>
+
+<div class="city">
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div class="city">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.note {
+  font-size: 120%;
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<h1>My <span class="note">Important</span> Heading</h1>
+<p>This is some <span class="note">important</span> text.</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<h2>The class Attribute</h2>
+<p>Use CSS to style elements with the class name "city":</p>
+
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+
+<h2 class="city">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+
+</body>
+</html>
+
+
+<h2 class="city main">London</h2>
+<h2 class="city">Paris</h2>
+<h2 class="city">Tokyo</h2>	
+<h2 class="city">Paris</h2>
+<p class="city">Paris is the capital of France</p>
+
+<script>
+function myFunction() {
+  var x = document.getElementsByClassName("city");
+  for (var i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+}
+</script>
